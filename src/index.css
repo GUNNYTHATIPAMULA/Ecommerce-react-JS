@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+  height: 40px;
+}
+@layer {
+  input {
+    @apply border-2 rounded-md;
+  }
+
+  .loginpage {
+    @apply place-items-center  bg-gray-300 flex-col;
+  }
+}
+input {
+  border: 2px solid black;
+  /* width: 80%;
+  height: 30px; */
+}
+.cardbody {
+  width: 350px;
+  height: 350px;
+  /* padding-left: 20px; */
+  border: 2px solid black;
+  margin: 5px;
+  /* border-top: none; */
+}
+.header {
+  position: relative;
+}
+.sidenav {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+  background-color: rgb(251, 255, 255);
+}
+
+.hero-section img {
+  clip-path: polygon(8% 0, 100% 0%, 100% 100%, 0 100%);
+}
+
+
+  .logo {
+    height: 40px;
+    width: 40px;
+    object-fit: cover;
+  }
